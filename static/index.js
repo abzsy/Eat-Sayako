@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '那就摸摸菌';
-        if (cps <= 8) return '哇哦';
-        if (cps <= 10)  return '侬要组撒？！';
-        if (cps <= 15) return '黑紗说话！';
+        if (cps <= 3) return '那就摸摸菌';
+        if (cps <= 5) return '哇哦';
+        if (cps <= 7)  return '侬要组撒？！';
+        if (cps <= 10) return '黑紗说话！';
         return '开了是吧？';
     }
 
